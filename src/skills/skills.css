@@ -85,7 +85,7 @@
 @media screen and (max-width:720px) {
     #skill
     {
-        margin-left: 300px;
+        margin-left: 350px;
     }
     
     .skillbar
@@ -98,11 +98,18 @@
     {
         margin: 0.5rem;
     }
-    .des,.title
+    .des
     {
         margin: 2rem;
+        border-radius:90px;
         padding: 20px;
     }
+    .title
+    {
+        margin:2.3rem;
+        padding:20px;
+    }
+        
 .resume
 {
     border-radius: 500px;
@@ -114,5 +121,6 @@
 }
     
 }
+
 
 
