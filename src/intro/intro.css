@@ -1,0 +1,76 @@
+.bg
+{
+    position: absolute;
+    top: -4rem;
+    right: 0;
+    z-index: -1;
+    object-fit: cover;
+    border-radius: 50%;
+    width: 350px;
+    height: 400px;
+    top: 200px;
+    right: 100px;
+
+}
+.introcontent
+{
+    width: 1100px;
+    font-size: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 200px;
+}
+.hello
+{
+    font-size: 1.75rem;
+    font-weight: 100;
+
+}
+.text
+{
+    color: yellow;
+    
+}
+.para
+{
+
+    font-size: medium;
+    font-weight: 200;
+}
+.btn
+{
+     width: 95px;
+    padding: 5px;
+    border-radius: 50px;
+    background:white;
+    color: black;
+}
+.btn:hover
+{
+    
+    background-color:rgb(15, 152, 201);
+}
+.para{
+    margin: 5rem;
+    color: rgb(33, 30, 30);
+ }
+@media  screen and (max-width:720px) {
+ 
+  .introcontent
+  {
+    margin-top: 600px;
+  }
+ .bg{
+    left:380px;
+ }
+ .text
+ {
+    margin-left: 350px;
+ }
+ .hello
+ {
+    margin-left: 500px;
+ }
+ 
+}

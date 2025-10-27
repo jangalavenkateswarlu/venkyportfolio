@@ -1,0 +1,118 @@
+#skill
+{
+    overflow: hidden;
+    width: 100vw;
+    max-width: 65rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 80px;
+}
+.title
+{
+    font-size: 3rem;
+    font-weight: 600;
+    margin-bottom: 1.5rem;
+    border: 1px solid red;
+    border-radius: 300px;
+    background: rgb(20,150,40);
+
+}
+
+.skillbars
+{
+    width: 100vw;
+    max-width: 80%;
+    margin: 1rem;
+    
+}
+.skillbar{
+
+    display: flex;
+    border-radius: 0.5rem;
+    border: 1px solid blue;
+    background: rgb(134, 206, 195);
+    
+}
+.webimg
+{
+    width: 150px;
+    margin-top: 100px;
+    margin-left: 150px;
+
+}
+.pyimg
+{
+    width: 150px;
+    margin-top: 100px;
+    margin-left: 150px;
+
+}
+.javaimg
+{
+    width: 150px;
+    margin-top: 100px;
+    margin-left:150px;
+
+}
+.title{
+    margin-top: 250px;
+}
+.des
+{
+    margin-top: 20px;
+    border: 1px solid black;
+    border-radius: 150px;
+    background-color: aqua;
+}
+.skilltext
+{
+    margin-right:50px;
+}
+.resume
+{
+    margin-top: 20px;
+    border-radius: 100px;
+    height: 2vw;
+}
+.resume:hover
+{
+    background: rgb(191, 0, 255);
+}
+@media screen and (max-width:720px) {
+    #skill
+    {
+        margin-left: 300px;
+    }
+    
+    .skillbar
+    {
+        background-color: aliceblue;
+        
+       
+    }
+    .webimg,.pyimg,.javaimg
+    {
+        margin: 0.5rem;
+    }
+    .des,.title
+    {
+        margin: 2rem;
+        padding: 20px;
+    }
+.resume
+{
+    border-radius: 500px;
+    height: 30px;
+}
+.resume:hover
+{
+    background: rgb(191, 0, 255);
+}
+    
+}
+
+

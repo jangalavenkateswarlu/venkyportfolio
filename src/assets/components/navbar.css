@@ -1,0 +1,120 @@
+
+.navbar
+{
+   height: 5rem;
+   width: 100vw;
+   margin: 0;
+   padding: 1rem 2rem;
+   display: flex;
+   align-items: center;
+   justify-content: space-evenly;
+   position: sticky;
+   top: 0;
+   z-index: 3;
+
+}
+.Menulist
+{
+    margin: 1rem;
+    cursor: pointer;
+   
+}
+.Menulist:hover{
+    color: yellow;
+    padding-bottom: 0.5rem;
+    border-bottom: 1px solid yellow;
+
+}
+.btn1{
+    width: 95px;
+    padding: 5px;
+    border-radius: 50px;
+    background:white;
+    color: black;
+}
+.btn1:hover
+{
+    background-color:red;
+}
+.btn1:active{
+    color: aqua;
+}
+.active{
+    padding-bottom: 0.5rem;
+}
+.navmenu
+{
+    position: absolute;
+    top: 4rem;
+    right: 2rem;
+    z-index: 2;
+    display: flex;
+    flex-direction: column;
+    padding: 0.5rem;
+    height: fit-content;
+    min-width: 15rem;
+    background: rgb(33, 183, 48);
+    border-radius: 1rem;
+    padding-left: 50px;
+}
+.mobmenu
+{
+    width: 30px;
+    cursor: pointer;
+    object-fit: cover;
+    height: 1.8rem;
+    display: none;
+}
+.Menulist{
+    padding: 0.5rem 3rem;
+    margin: 0.25rem;
+}
+.portc
+{
+    display: none;
+}
+@media  screen and (max-width:720px) {
+   
+    .deskstopMenu
+    {
+        display: none;
+    }
+    .btn1{
+        display: flex;
+        padding-right: 20px;
+
+    }
+    .mobmenu
+    {
+        display: flex;
+        margin: 20rem;
+    }
+    .navmenu
+    {
+    position: absolute;
+    top: 4rem;
+    right: 2rem;
+    z-index: 2;
+    display: flex;
+    flex-direction: column;
+    padding: 0.5rem;
+    height: fit-content;
+    min-width: 15rem;
+    background: rgb(33, 183, 48);
+    border-radius: 1rem;
+    margin-left: 900px;
+    }
+    .portc
+    {
+        display: flex;
+        font-size: 100;
+        border: 1px solid blue;
+        border-radius: 200px;
+       background-color: white; 
+       margin-right: 100px;       
+        
+    }
+    .portc:hover{
+        background: chartreuse;
+    }
+}
