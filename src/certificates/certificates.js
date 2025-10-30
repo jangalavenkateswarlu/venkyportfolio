@@ -12,7 +12,7 @@ import bootstrap from '../bootstrap.jpg';
 const Certificates = () =>{
     return(
     <section id="certificates">
-        <h2 className="certtitle">MY CERTIFICATIONS</h2>
+        <button className="certtitle">MY CERTIFICATIONS</button>
       <div>  
         <div className="certimg">
           <img src={pycert} alt="pythoncert" className="pyct"/>

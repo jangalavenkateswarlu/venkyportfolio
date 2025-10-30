@@ -31,31 +31,38 @@
 .certtitle
 {
     margin-top: 100px;
-    border-radius: 200px;
-    border-radius: 200px;
+    border: 1px solid;
+    border-radius: 300px;
+    height: 50px;
+    width: 230px;
+    font-size: 20px;
+    background-color: rgb(60, 154, 20);
 }
-@media screen and (max-width:720px) {
+.certtitle:hover
+{
+    background-color: teal;
+}
+@media screen and (max-width:1475px) {
     
    #certificates
     {
-        margin-left: 360px;
+        margin-left: 80px;
+       
 
     }
     .certtitle
     {
-        margin-left:130px
+      margin-left: 100px;
     }
     .certimg{
-        
     display: flex;
+    flex-direction:row;
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;
-    max-width: 95vw;
-    margin-right:200px;
+    margin: 2.8rem;
     margin-top: 80px;
     
 }
     
-
 }

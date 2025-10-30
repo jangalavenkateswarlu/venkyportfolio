@@ -12,9 +12,9 @@ const Intro = () =>{
     return(
         <section id="intro">
             <div className="introcontent">
-              <span className="hello">Hello</span>
-              <span className="text"> I'am Jangala Venkateswarlu Fullstack developer</span>
-              <p className="para">currently seeking internship and job opportunities to start my professional journey. I’m eager to apply my technical knowledge, learn new skills, and contribute to real-world projects. I value teamwork, creativity, and continuous improvement, and I’m always motivated to take on new challenges that help me grow personally and professionally.</p>
+              <div className="hello">Hello</div>
+              <div className="text"> I'am Jangala Venkateswarlu Fullstack developer</div>
+              <div className="para">currently seeking internship and job opportunities to start my professional journey. I’m eager to apply my technical knowledge, learn new skills, and contribute to real-world projects. I value teamwork, creativity, and continuous improvement, and I’m always motivated to take on new challenges that help me grow personally and professionally.</div>
               <Link>
               <button onClick={handleHireMeClick} className="btn"> Hire Me</button>
             </Link>

@@ -110,9 +110,9 @@
         font-size: 100;
         border: 1px solid blue;
         border-radius: 200px;
-       background-color: white; 
-       margin-right: 100px;       
-        
+        background-color: white; 
+        margin: 1rem;
+
     }
     .portc:hover{
         background: chartreuse;

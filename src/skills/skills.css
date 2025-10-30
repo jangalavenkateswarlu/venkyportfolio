@@ -82,10 +82,10 @@
 {
     background: rgb(191, 0, 255);
 }
-@media screen and (max-width:720px) {
+@media screen and (max-width:1480px) {
     #skill
     {
-        margin-left: 350px;
+        margin-left: 70px;
     }
     
     .skillbar
@@ -100,20 +100,23 @@
     }
     .des
     {
-        margin: 2rem;
-        border-radius:90px;
+        border-radius: 90px;
+        margin: 3rem;
         padding: 20px;
+        margin-left: 80px;
     }
     .title
     {
-        margin:2.3rem;
-        padding:20px;
+        margin: 2rem;
+        margin-left: 80px;
+        padding: 20px;
     }
-        
 .resume
 {
     border-radius: 500px;
-    height: 30px;
+    width: 150px;
+    height: 35px;
+    background-color: blanchedalmond;
 }
 .resume:hover
 {
@@ -121,6 +124,5 @@
 }
     
 }
-
 
 
