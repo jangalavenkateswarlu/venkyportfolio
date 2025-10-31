@@ -1,15 +1,13 @@
 #skill
 {
     overflow: hidden;
-    width: 100vw;
-    max-width: 65rem;
+    max-width: 1200px;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     text-align: center;
     margin: 0 auto;
-    margin-top: 80px;
 }
 .title
 {
@@ -82,15 +80,18 @@
 {
     background: rgb(191, 0, 255);
 }
-@media screen and (max-width:1480px) {
+@media screen and (max-width:720px) {
     #skill
     {
-        margin-left: 70px;
+        margin-left:-50px;
+        margin-right: -550px;
+        
     }
     
     .skillbar
     {
         background-color: aliceblue;
+        width: 250%;
         
        
     }
@@ -101,26 +102,35 @@
     .des
     {
         border-radius: 90px;
-        margin: 3rem;
-        padding: 20px;
-        margin-left: 80px;
+        margin: 1.5rem;
+        padding: 15px;
+        margin-left:240px;
     }
     .title
     {
-        margin: 2rem;
         margin-left: 80px;
-        padding: 20px;
+        padding:10px;
     }
 .resume
 {
     border-radius: 500px;
     width: 150px;
     height: 35px;
+    margin-right: -100px;
     background-color: blanchedalmond;
 }
 .resume:hover
 {
     background: rgb(191, 0, 255);
+}
+.skilltext
+{
+    margin-right: 250px;
+    padding-right: 20px;
+}
+.skillbars
+{
+    margin-right:150px;
 }
     
 }

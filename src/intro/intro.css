@@ -1,3 +1,7 @@
+#intro
+{
+    max-width: 1200px;
+}
 .bg
 {
     position: absolute;
@@ -56,37 +60,37 @@
     margin: 5rem;
     color: rgb(33, 30, 30);
  }
-@media  screen and (max-width:1480px) {
+@media  screen and (max-width:720px) {
  
   .introcontent
   {
-    margin-top: 600px;
+    margin-top: 450px;
     
   }
  .bg{
     
-    left:290px;
+    left:320px;
  }
  .text
  {
-    margin-right: 200px;
+    margin-right: 180px;
     font-size: 30px;
 
  }
  .hello
  {
-    margin-right: 730px;
+    margin-right: 700px;
     font-size: 30px;
 
  }
  .para{
-    margin-right: 200px;
+    margin-right: 150px;
     font-size: 22px;
     color: rgb(51, 12, 223);
  }
  .btn
  {
-    margin-right: 220px;
+    margin-right: 180px;
     font-size: 22px;
  }
  

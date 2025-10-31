@@ -1,6 +1,6 @@
 .footer
 {
-    width: 100vw;
+    max-width: 1200px;
     height: 4rem;
     background: rgb(26, 215, 218);
     display: flex;
@@ -8,8 +8,10 @@
     justify-content: center;
     font-weight: 300;
     font-size: small;
+    margin-left: 160px;
+    margin-top: 10px;
 }
-@media screen and(max-width:1480px) {
+@media screen and(max-width:720px) {
     .footer
     {
        display: none;

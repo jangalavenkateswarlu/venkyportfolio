@@ -2,8 +2,7 @@
 {
     margin: 0 auto;
     min-height: calc(100vh-4rem);
-    width: 100vw;
-    max-width: 60rem;
+    max-width: 1200px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -42,25 +41,21 @@
 {
     background-color: teal;
 }
-@media screen and (max-width:1475px) {
+@media screen and (max-width:720px) {
     
    #certificates
     {
-        margin-left: 80px;
+        margin-left:350px;
        
 
     }
     .certtitle
     {
-      margin-left: 100px;
+      margin-left: 60px;
     }
     .certimg{
     display: flex;
-    flex-direction:row;
     flex-wrap: wrap;
-    align-items: center;
-    justify-content: center;
-    margin: 2.8rem;
     margin-top: 80px;
     
 }

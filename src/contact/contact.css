@@ -4,6 +4,8 @@
     border-radius:200px;
     background-color: aliceblue;
     margin-top: 100px;
+    max-width: 1200px;
+    margin-left: 150px;
 }
 .contactdes
 {
@@ -20,7 +22,7 @@
     justify-content: center;
     width: 90vw;
     max-width: 60rem;
-    margin-left: 230px;
+    margin-left: 100px;
 }
 .name,.email,.msg
 {
@@ -50,24 +52,29 @@
 .submitbtn:active{
     background-color: rgb(60, 28, 123);
 }
-@media  screen and (max-width:1475px) {
+@media  screen and (max-width:720px) {
     .contactform
     {
-      margin-left: 100px;
-      width: 100%;
-      
+     margin: 0.5rem;
+     margin-left: 10px;      
     }
     #contactpage
     {
         background-color: aliceblue;
-        padding-right: 25%;
-        margin-left: 250px;
+        margin-left: 280px;
+        padding: 25%;
+        width: 100px;
+        width: 100%;
+        border-radius: 100px;
     }
     .contacttit,span
     {
         display: flex;
-        margin-left: 150px;
         font-size: 20px;
+    }
+    .contacttit
+    {
+        margin-left: 100px;
     }
    /* .contdes
    {
