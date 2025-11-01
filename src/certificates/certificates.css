@@ -1,4 +1,4 @@
- .certificates
+ #certificates
 {
     margin: 0 auto;
     min-height: calc(100vh-4rem);
@@ -8,6 +8,7 @@
     align-items: center;
     text-align: center; 
     padding: 0 1rem;
+    margin-left: 280px;
 }
 .certimg{
     width: 100vw;
@@ -22,17 +23,19 @@
 }
 .pyct,.javact,.threect,.htmlct,.reactct,.gitct,.nakurict,.bootct
 {
-    width: 350px;
+    width: 380px;
     object-fit: cover;
     height: 20rem;
     margin: 0.5rem;
 }
 .certtitle
 {
-    margin-top: 100px;
+    margin-top: 50px;
     border: 1px solid;
     border-radius: 300px;
-    height: 50px;
+    margin-right: 280px;
+    /* height: 50px; */
+    padding: 10px;
     width: 230px;
     font-size: 20px;
     background-color: rgb(60, 154, 20);
@@ -44,11 +47,16 @@
 @media screen and (max-width:1040px){
     #certificates
     {
-        margin-left: 110px;
+        margin-left: 400px;
     }
     .certtitle
     {
-        margin-left: 50px;
+        margin-left: 80px;
+    }
+    .certimg
+    {
+        display: flex;
+        flex-wrap: wrap;
     }
     
 }
@@ -56,7 +64,7 @@
     
    #certificates
     {
-        margin-left:350px;
+        margin-left:620px;
        
 
     }
@@ -70,5 +78,4 @@
     
 }
     
-
 }
