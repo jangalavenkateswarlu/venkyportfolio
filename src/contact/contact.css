@@ -52,6 +52,21 @@
 .submitbtn:active{
     background-color: rgb(60, 28, 123);
 }
+@media screen and (max-width:1040px){
+    #contactpage
+    {
+        margin: 0.5rem;
+        margin-left: 250px;
+        border-radius: 80px;
+
+    }
+    .contactform
+    {
+        width: 85%;
+        margin: 0.5rem;
+        margin-left: 40px;
+    }
+}
 @media  screen and (max-width:720px) {
     .contactform
     {

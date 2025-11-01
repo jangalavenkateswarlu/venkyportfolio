@@ -66,6 +66,22 @@
     border-radius: 50px;
 
 }
+@media screen and (max-width:1040px){
+    #works
+    {
+        margin-left: 140px;
+    }
+    .worktitle
+    {
+        margin-right: 200px;
+    }
+    .workdes
+    {
+        margin-right: 150px;
+    }
+
+}
+
 @media screen and (max-width:720px){
     #works
     {

@@ -25,7 +25,8 @@ const Navbar = () =>{
             <Link  activeClass="active" to="certificates" spy={true} smooth={true} offset={-100} duration={500} className="Menulist" onClick={() =>setShowMenu(false)}>Certificates</Link>
            </div>
            
-           <span className="portc">Portfolio</span>
+           {/* <span className="portc">Portfolio</span> */}
+           <Link  activeClass="active" to="works" spy={true} smooth={true} offset={-100} duration={500} className="portc" onClick={() =>setShowMenu(false)}>Portfolio</Link>
           
         </nav>
     )

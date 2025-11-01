@@ -80,6 +80,26 @@
 {
     background: rgb(191, 0, 255);
 }
+@media screen and (max-width:1040px) {
+    .resume
+
+    {
+        padding: 15px;
+        display: flex;
+        align-items: center;
+      
+    }
+    #skill
+    {
+        margin-left: 140px;
+    }
+    .des{
+        padding: 20px;
+        border-radius: 50px;
+    }
+    
+}
+
 @media screen and (max-width:720px) {
     #skill
     {
@@ -101,10 +121,10 @@
     }
     .des
     {
-        border-radius: 90px;
+        border-radius: 50px;
         margin: 1.5rem;
         padding: 15px;
-        margin-left:240px;
+        margin-left:200px;
     }
     .title
     {

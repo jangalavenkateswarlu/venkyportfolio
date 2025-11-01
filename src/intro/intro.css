@@ -60,6 +60,31 @@
     margin: 5rem;
     color: rgb(33, 30, 30);
  }
+ @media screen and (max-width:1040px) {
+    
+   .text
+   {
+    margin-right: 300px;
+   }
+
+    .bg{
+        left: 700px;
+    }
+    .hello
+    {
+        margin-right: 700px;
+        
+    }
+    .para
+    {
+        margin-right: 400px;
+        margin-bottom: 50px;
+    }
+    .btn{
+        margin-right: 400px;
+    }
+}
+ 
 @media  screen and (max-width:720px) {
  
   .introcontent

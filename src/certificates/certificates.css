@@ -17,7 +17,7 @@
     justify-content: center;
     max-width: 95vw;
     margin-right:200px;
-    margin-top: 80px;
+    margin-top: 50px;
     
 }
 .pyct,.javact,.threect,.htmlct,.reactct,.gitct,.nakurict,.bootct
@@ -40,6 +40,17 @@
 .certtitle:hover
 {
     background-color: teal;
+}
+@media screen and (max-width:1040px){
+    #certificates
+    {
+        margin-left: 110px;
+    }
+    .certtitle
+    {
+        margin-left: 50px;
+    }
+    
 }
 @media screen and (max-width:720px) {
     
